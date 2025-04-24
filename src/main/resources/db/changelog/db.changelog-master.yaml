@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+        file: db/changelog/2025-04-14-base-schema.sql
+  - include:
+        file: db/changelog/2025-04-14-add-manuals.sql
+  - include:
+        file: db/changelog/2025-04-14-add-admin.sql

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: collections-app
+    base-prefix: /api/1
+    jwtSecret: ${JWT_SECRET}
+    jwtExpirationMs: 1000000000
+    jwtRefreshExpirationMs: 1000000000
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD:}
+    driver-class-name: org.postgresql.Driver
